@@ -19,7 +19,6 @@ export const ContentContainer = styled.div`
   }
 
   button {
-    /* display: inline-block; */
     background-color: ${(props) => props.theme['main-color']};
     border: none;
     padding: 0.75rem 2.5rem;
@@ -27,6 +26,11 @@ export const ContentContainer = styled.div`
     color: ${(props) => props.theme['white-color']};
     font-weight: 500;
     margin-top: 4rem;
+
+    &:hover {
+      transition: filter 0.2s;
+      filter: brightness(0.8);
+    }
   }
 
   .social__icon-container {
@@ -34,6 +38,13 @@ export const ContentContainer = styled.div`
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+  }
+
+  @media screen and (max-width: 599px) {
+    .social__icon-container {
+      padding-top: 5rem;
+      flex-direction: column;
+    }
   }
 `
 
@@ -44,5 +55,10 @@ export const ImageContainer = styled.div`
   .home_img {
     border-radius: 50%;
     width: 18.75rem;
+  }
+
+  @media screen and (max-width: 599px) {
+    left: 45%;
+    margin-top: 16rem;
   }
 `
