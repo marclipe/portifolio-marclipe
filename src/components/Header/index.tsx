@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import { HeaderContainer } from './styles'
-import imgLogo from '../../assets/imgLogo.svg'
+import { TerminalWindow } from '@phosphor-icons/react'
 
 export function Header() {
   return (
     <HeaderContainer>
       <div>
-        <img src={imgLogo} alt="" />
+        <TerminalWindow size={45} />
         <h3>MarcLipe</h3>
       </div>
       <nav>
@@ -17,7 +17,7 @@ export function Header() {
           about
         </NavLink>
         <NavLink to={'/skills'} className="active-link">
-          skills
+          projects
         </NavLink>
       </nav>
     </HeaderContainer>
