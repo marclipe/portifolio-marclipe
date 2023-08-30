@@ -1,7 +1,7 @@
 import { ContentContainer, HomeContainer, ImageContainer } from './styles'
 import imgProfile from '../../assets/profile-pic.png'
 import 'boxicons'
-import pdfFile from '../../../public/pdfs/resumeMarcosFelipe.pdf'
+import pdfFile from '../../pdfs/resumeMarcosFelipe.pdf'
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from 'react'
 

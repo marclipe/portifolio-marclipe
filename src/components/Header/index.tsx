@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { HeaderContainer } from './styles'
 import { TerminalWindow } from '@phosphor-icons/react'
-
 export function Header() {
   return (
     <HeaderContainer>

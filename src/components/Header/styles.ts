@@ -28,4 +28,15 @@ export const HeaderContainer = styled.header`
       font-size: 1.25rem;
     }
   }
+
+  @media screen and (max-width: 599px) {
+    gap: 2rem;
+    nav {
+      gap: 1rem;
+    }
+
+    h3 {
+      display: none;
+    }
+  }
 `

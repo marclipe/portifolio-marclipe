@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="200" height="200">
+	<title>terminal-window-fill-svg</title>
+	<defs>
+		<image  width="208" height="176" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAACwAQMAAABEnnJtAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAU23+Qcvj1wAAAAJ0Uk5TAP9bkSK1AAABeUlEQVR4nO3YMZKDMAwFUDEUKXMEjsLRzNE4CkegpMiEJUSWwdL/s/Wu6ZKXId/ClhOLDHt4bSISy76LdIgmeSBa5IloRSk+OUZEL0YJ0ZsRkmPMjRo1+if0TpDWoIspLUHvU5p7SFMQx8jnMBoRSdBNjXxEu6GPaOT7vZFPn4csPmIuVBAxl1f8NqG0Benz8wq2pBws2MjyG0f6BChInymImCmImOklrsCZgvQW2Uc08hGNfIGNfHojH9HIRyxFdQUuL136Qi5iIRexkCtwIZf+kqpOf6F6cl9oxrRUY/4dkRuSGDg8GTIpFCkveSjkUeIJQKYNmWxkipKJTZYDXkRk6ZEFS5Y5aQ6kpZBGhNsXaXoa8PiE2J3vDXY96XkjLe5y0uNGmn0+qb+RbgHTSV1FHaYekX63fK+KBkS6IcbflTDtiHTLjoasG31UKP15EJVXf1REDyW6GjVq9PcpIaEnFSMieioyINrY4Qw50iEHQXDMEv1B0RQ/N4KCUTugn4sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer copy" href="#img1" x="24" y="40"/>
+</svg>
