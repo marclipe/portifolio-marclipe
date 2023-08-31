@@ -5,6 +5,7 @@ interface PropsDefaultTheme {
   'color-text': string
   'white-color': string
   'purple-color': string
+  'skills-color': string
 }
 
 export const defaultTheme: PropsDefaultTheme = {
@@ -14,4 +15,5 @@ export const defaultTheme: PropsDefaultTheme = {
   'color-text': '#837E9F',
   'white-color': '#fff',
   'purple-color': '#634ea8',
+  'skills-color': '#CB92B1',
 }
