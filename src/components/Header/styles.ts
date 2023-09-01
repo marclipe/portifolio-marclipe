@@ -35,13 +35,8 @@ export const HeaderContainer = styled.header`
       gap: 1rem;
     }
 
-    /* h3 {
+    h3 {
       display: none;
-    } */
-  }
-
-  &.active-link {
-    font-weight: bold;
-    color: blue; /* ou a cor desejada */
+    }
   }
 `

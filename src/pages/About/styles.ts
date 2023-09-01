@@ -5,7 +5,7 @@ export const ContainerAbout = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 2rem 0;
   img {
     width: 300px;
     border-radius: 10%;
@@ -53,7 +53,16 @@ export const ContentSkills = styled.div`
 
   @media screen and (max-width: 599px) {
     grid-template-columns: 1fr 1fr;
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
+
+    .containerCardSkills {
+      width: 150px;
+      margin: 0 15px 15px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .containerCardSkills {
@@ -73,6 +82,6 @@ export const ContentSkills = styled.div`
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: black;
+    color: #000;
   }
 `

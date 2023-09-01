@@ -56,7 +56,7 @@ export function Home() {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/in/marcosfelipesl/"
+              href="https://www.linkedin.com/in/marclipe/"
               target="_blank"
               rel="noreferrer"
             >
