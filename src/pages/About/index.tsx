@@ -12,11 +12,24 @@ import reactIcon from '../../assets/icons/react-icon.svg'
 import nodeIcon from '../../assets/icons/nodejs-icon.svg'
 import sassIcon from '../../assets/icons/sass-icon.svg'
 import gitIcon from '../../assets/icons/git-icon.svg'
+import ScrollReveal from 'scrollreveal'
+import { useEffect } from 'react'
 
 export function About() {
+  useEffect(() => {
+    const sr = ScrollReveal()
+    sr.reveal('.animated', {
+      delay: 300,
+      duration: 800,
+      distance: '20px',
+      easing: 'ease-in-out',
+      origin: 'bottom',
+    })
+  }, [])
+
   return (
     <ContainerAbout>
-      <ContainerContent>
+      <ContainerContent className="animated">
         <img
           src="https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif"
           alt=""
@@ -28,7 +41,7 @@ export function About() {
         </p>
       </ContainerContent>
 
-      <ContainerSkills>
+      <ContainerSkills className="animated">
         <div>
           <h2>- Hard Skills -</h2>
         </div>

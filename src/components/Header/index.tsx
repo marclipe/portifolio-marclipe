@@ -15,7 +15,7 @@ export function Header() {
         <NavLink to={'/about'} className="active-link">
           about
         </NavLink>
-        <NavLink to={'/skills'} className="active-link">
+        <NavLink to={'/projects'} className="active-link">
           projects
         </NavLink>
       </nav>
