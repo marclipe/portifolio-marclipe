@@ -50,6 +50,13 @@ export const MyProjects = styled.div`
     border-radius: 1.75rem;
     flex-shrink: 0;
     background-color: ${(props) => props.theme['main-color']};
+    transition: 1s;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
 
   .first-project {

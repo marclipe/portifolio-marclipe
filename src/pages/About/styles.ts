@@ -71,6 +71,11 @@ export const ContentSkills = styled.div`
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
   }
 
   img {
