@@ -8,4 +8,8 @@ export const LayoutContainer = styled.div`
 
   max-width: 74rem;
   height: calc(100vh - 10rem);
+
+  @media screen and (max-width: 320px) {
+    padding: 0 1rem;
+  }
 `

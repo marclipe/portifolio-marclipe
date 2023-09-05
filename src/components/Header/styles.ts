@@ -56,4 +56,8 @@ export const HeaderContainer = styled.header`
       display: none;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    gap: 0.5rem;
+  }
 `

@@ -10,8 +10,9 @@ import javascriptIcon from '../../assets/icons/javascript-icon.svg'
 import typescriptIcon from '../../assets/icons/typescript-icon.svg'
 import reactIcon from '../../assets/icons/react-icon.svg'
 import nodeIcon from '../../assets/icons/nodejs-icon.svg'
-import sassIcon from '../../assets/icons/sass-icon.svg'
+import styledCompIcon from '../../assets/icons/styled-components-icon.svg'
 import gitIcon from '../../assets/icons/git-icon.svg'
+import imageProfileAbout from '../../assets/profile-about.png'
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from 'react'
 
@@ -30,10 +31,7 @@ export function About() {
   return (
     <ContainerAbout>
       <ContainerContent className="animated">
-        <img
-          src="https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif"
-          alt=""
-        />
+        <img src={imageProfileAbout} alt="" />
         <h1>Marcos Felipe</h1>
         <p>
           My name is Marcos Felipe de Sousa Lima 👋 I am from Brazil, São
@@ -86,9 +84,9 @@ export function About() {
           </div>
           <div className="containerCardSkills">
             <h3>
-              <code>Sass</code>
+              <code>Styled Components</code>
             </h3>
-            <img src={sassIcon} alt="" />
+            <img src={styledCompIcon} alt="" />
           </div>
           <div className="containerCardSkills">
             <h3>

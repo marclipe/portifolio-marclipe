@@ -10,6 +10,12 @@ export const ContainerAbout = styled.section`
     width: 300px;
     border-radius: 10%;
   }
+
+  @media screen and (max-width: 320px) {
+    img {
+      width: 100%;
+    }
+  }
 `
 
 export const ContainerContent = styled.div`
@@ -23,7 +29,7 @@ export const ContainerContent = styled.div`
   }
 
   h1 {
-    margin: 1rem 0 1.5rem;
+    margin: 1.5rem 0 1.5rem;
     color: ${(props) => props.theme['main-color']};
     font-size: 2rem;
     text-align: center;
@@ -52,20 +58,6 @@ export const ContentSkills = styled.div`
   margin-bottom: 8.5rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
-  @media screen and (max-width: 599px) {
-    grid-template-columns: 1fr 1fr;
-    /* margin-right: 2.5rem; */
-
-    .containerCardSkills {
-      width: 150px;
-      margin: 0 15px 15px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
   .containerCardSkills {
     background-color: ${(props) => props.theme['skills-color']};
     margin: 0 1rem 1rem;
@@ -79,6 +71,12 @@ export const ContentSkills = styled.div`
     }
   }
 
+  @media screen and (min-width: 960px) {
+    .containerCardSkills {
+      margin: 0 2rem 1rem;
+    }
+  }
+
   img {
     height: 75px;
     width: 170px;
@@ -89,5 +87,22 @@ export const ContentSkills = styled.div`
     text-align: center;
     margin-bottom: 1rem;
     color: #000;
+  }
+
+  @media screen and (max-width: 599px) {
+    grid-template-columns: 1fr 1fr;
+
+    .containerCardSkills {
+      width: 150px;
+      margin: 0 15px 15px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 `

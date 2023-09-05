@@ -160,4 +160,10 @@ export const MyProjects = styled.div`
       margin: 0;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .projects {
+      width: 246px;
+    }
+  }
 `

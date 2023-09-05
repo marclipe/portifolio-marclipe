@@ -61,4 +61,13 @@ export const ImageContainer = styled.div`
     left: 21%;
     margin-top: 19rem;
   }
+
+  @media screen and (max-width: 320px) {
+    .home_img {
+      width: 100%;
+      position: relative;
+      left: 9%;
+      top: 31px;
+    }
+  }
 `
