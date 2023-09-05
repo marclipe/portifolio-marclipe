@@ -6,8 +6,6 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
-    border: 1px solid green;
   }
 
   /* font-size: 16px; (Desktop) */
