@@ -1,4 +1,5 @@
 import { styled } from 'styled-components'
+import imageFlix from '../../assets/apiflix-image.png'
 
 export const ContainerProjects = styled.section``
 
@@ -48,7 +49,6 @@ export const MyProjects = styled.div`
 
   .projects {
     border-radius: 1.75rem;
-    flex-shrink: 0;
     background-color: ${(props) => props.theme['main-color']};
     transition: 1s;
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -56,13 +56,44 @@ export const MyProjects = styled.div`
     &:hover {
       transform: scale(1.1);
       transition: 0.5s;
+
+      span {
+        display: block;
+        background-color: ${(props) => props.theme['skills-color']};
+        border-radius: 3px;
+        padding: 0.125rem 0.5rem;
+        color: #000;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 0.625rem;
+        text-transform: uppercase;
+      }
     }
+
+    span {
+      display: none;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
   }
 
   .first-project {
     width: 340px;
     height: 190px;
     margin-bottom: 3.125rem;
+
+    background-image: url(${imageFlix});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
   }
 
   .second-project {
