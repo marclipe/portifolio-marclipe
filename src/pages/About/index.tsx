@@ -37,7 +37,9 @@ export function About() {
         <h1>Marcos Felipe</h1>
         <p>
           My name is Marcos Felipe de Sousa Lima 👋 I am from Brazil, São
-          Paulo/SP.
+          Paulo/SP. <br /> I graduated in Análise e Desenvolvimento de Sistemas.
+          <br />I live intensely in the technology area. My focus at the moment
+          is on Web Development.
         </p>
       </ContainerContent>
 
@@ -47,35 +49,51 @@ export function About() {
         </div>
         <ContentSkills>
           <div className="containerCardSkills">
-            <h3>HTML</h3>
+            <h3>
+              <code>HTML</code>
+            </h3>
             <img src={htmlIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>CSS</h3>
+            <h3>
+              <code>CSS</code>
+            </h3>
             <img src={cssIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>Javascript</h3>
+            <h3>
+              <code>Javascript</code>
+            </h3>
             <img src={javascriptIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>Typescript</h3>
+            <h3>
+              <code>Typescript</code>
+            </h3>
             <img src={typescriptIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>ReactJS</h3>
+            <h3>
+              <code>ReactJS</code>
+            </h3>
             <img src={reactIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>Node.JS</h3>
+            <h3>
+              <code>Node.JS</code>
+            </h3>
             <img src={nodeIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>Sass</h3>
+            <h3>
+              <code>Sass</code>
+            </h3>
             <img src={sassIcon} alt="" />
           </div>
           <div className="containerCardSkills">
-            <h3>GIT</h3>
+            <h3>
+              <code>GIT</code>
+            </h3>
             <img src={gitIcon} alt="" />
           </div>
         </ContentSkills>

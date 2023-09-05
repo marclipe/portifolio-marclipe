@@ -1,5 +1,10 @@
 import { styled } from 'styled-components'
 import imageFlix from '../../assets/apiflix-image.png'
+import imageFormCompany from '../../assets/form-company.png'
+import imageBeautySalon from '../../assets/image-beaty-salon.png'
+import imageCampIn from '../../assets/image-campin.png'
+import imagePricingTable from '../../assets/image-pricing-table.png'
+import imageDelivery from '../../assets/image-delivery.png'
 
 export const ContainerProjects = styled.section``
 
@@ -90,37 +95,58 @@ export const MyProjects = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
-    }
   }
 
   .second-project {
     width: 340px;
     height: 250px;
+
+    background-image: url(${imageBeautySalon});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
   }
 
   .third-project {
     width: 340px;
     height: 190px;
     margin-bottom: 3.125rem;
+
+    background-image: url(${imageCampIn});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .fourth-project {
     width: 340px;
     height: 250px;
+
+    background-image: url(${imageFormCompany});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .fifth-project {
     width: 340px;
     height: 190px;
     margin-top: 3.625rem;
+
+    background-image: url(${imagePricingTable});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .sixth-project {
     width: 340px;
     height: 250px;
+
+    background-image: url(${imageDelivery});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
   }
 
   @media screen and (max-width: 599px) {

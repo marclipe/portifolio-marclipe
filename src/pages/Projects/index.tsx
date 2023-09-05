@@ -29,7 +29,7 @@ export function Projects() {
         <h1>
           My <br /> Portfolio
         </h1>
-        <p>Estes são alguns dos trabalhos e projetos que já realizei</p>
+        <p>These are some of the jobs and projects I have already done</p>
       </ContentProjects>
       <MyProjects className="animated">
         <a href="https://apiflix.vercel.app/" target="_blank" rel="noreferrer">
@@ -39,39 +39,59 @@ export function Projects() {
             <span>styled-components</span>
           </div>
         </a>
-        <a href="#">
+        <a
+          href="https://beautysalon-tan.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="second-project projects">
-            <span>HTML</span>
+            <span>React</span>
             <span>Typescript</span>
-            <span>Typescript</span>
+            <span>CSS</span>
           </div>
         </a>
-        <a href="#">
+        <a
+          href="https://camp-in-two.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="third-project projects">
             <span>React</span>
             <span>Typescript</span>
-            <span>Typescript</span>
+            <span>styled-components</span>
           </div>
         </a>
-        <a href="#">
+        <a
+          href="https://main--velvety-moxie-c46960.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="fourth-project projects">
             <span>React</span>
             <span>Typescript</span>
-            <span>Typescript</span>
+            <span>styled-components</span>
           </div>
         </a>
-        <a href="#">
+        <a
+          href="https://pricing-table-dusky.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="fifth-project projects">
             <span>React</span>
             <span>Typescript</span>
-            <span>Typescript</span>
+            <span>styled-components</span>
           </div>
         </a>
-        <a href="#">
+        <a
+          href="https://marclipe.github.io/marcscript-/delivery-landing-page/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="sixth-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>Typescript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
           </div>
         </a>
       </MyProjects>

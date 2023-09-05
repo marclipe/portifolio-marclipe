@@ -33,7 +33,8 @@ export const ContainerContent = styled.div`
   p {
     color: ${(props) => props.theme['color-text']};
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.3;
   }
 `
 export const ContainerSkills = styled.div`
