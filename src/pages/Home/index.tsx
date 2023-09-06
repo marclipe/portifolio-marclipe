@@ -1,9 +1,11 @@
 import { ContentContainer, HomeContainer, ImageContainer } from './styles'
 import imgProfile from '../../assets/profile-pic.png'
-import 'boxicons'
 import pdfFile from '../../pdfs/resumeMarcosFelipe.pdf'
 import ScrollReveal from 'scrollreveal'
 import { useEffect } from 'react'
+import iconGitHub from '../../assets/icons/bxl-github.svg'
+import iconLinkedin from '../../assets/icons/bxl-linkedin-square.svg'
+import iconInstagram from '../../assets/icons/bxl-instagram.svg'
 
 export function Home() {
   const handleDownloadButton = () => {
@@ -46,12 +48,7 @@ export function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <box-icon
-                color="#837E9F"
-                as="box-icon"
-                name="github"
-                type="logo"
-              ></box-icon>
+              <img src={iconGitHub} alt="" />
             </a>
           </div>
           <div>
@@ -60,12 +57,7 @@ export function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <box-icon
-                color="#837E9F"
-                as="box-icon"
-                name="linkedin"
-                type="logo"
-              ></box-icon>
+              <img src={iconLinkedin} alt="" />
             </a>
           </div>
           <div>
@@ -74,12 +66,7 @@ export function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <box-icon
-                color="#837E9F"
-                as="box-icon"
-                type="logo"
-                name="instagram"
-              ></box-icon>
+              <img src={iconInstagram} alt="" />
             </a>
           </div>
         </div>

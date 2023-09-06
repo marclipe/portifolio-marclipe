@@ -38,6 +38,10 @@ export const ContentContainer = styled.div`
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+
+    img {
+      color: red;
+    }
   }
 
   @media screen and (max-width: 599px) {
