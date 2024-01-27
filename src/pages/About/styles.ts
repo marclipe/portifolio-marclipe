@@ -37,10 +37,19 @@ export const ContainerContent = styled.div`
   }
 
   p {
-    color: ${(props) => props.theme['color-text']};
-    font-size: 1.25rem;
+    color: ${(props) => props.theme['white-color']};
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.3;
+    margin: 0 10rem 0;
+    text-align: justify;
+  }
+
+  @media screen and (max-width: 599px) {
+    p {
+      margin: 0 1rem 0;
+      font-size: 1rem;
+    }
   }
 `
 export const ContainerSkills = styled.div`
@@ -57,13 +66,12 @@ export const ContentSkills = styled.div`
   margin: 0 auto;
   margin-bottom: 8.5rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
   .containerCardSkills {
-    background-color: ${(props) => props.theme['skills-color']};
-    margin: 0 1rem 1rem;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    h3 {
+      font-size: 1rem;
+      color: ${(props) => props.theme['color-text']};
+      font-weight: 900;
+    }
 
     &:hover {
       transform: scale(1.1);
@@ -74,12 +82,16 @@ export const ContentSkills = styled.div`
   @media screen and (min-width: 960px) {
     .containerCardSkills {
       margin: 0 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 
   img {
-    height: 75px;
-    width: 170px;
+    height: 85px;
+    width: 85px;
   }
 
   h3 {
@@ -99,10 +111,6 @@ export const ContentSkills = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-
-    img {
-      width: 100%;
     }
   }
 `

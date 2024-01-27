@@ -32,67 +32,43 @@ export function Projects() {
         <p>These are some of the jobs and projects I have already done</p>
       </ContentProjects>
       <MyProjects className="animated">
-        <a href="https://apiflix.vercel.app/" target="_blank" rel="noreferrer">
-          <div className="first-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>styled-components</span>
-          </div>
+        <a href="https://psifranleao.web.app/" target="_blank" rel="noreferrer">
+          <div className="first-project projects"></div>
         </a>
         <a
           href="https://beautysalon-tan.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="second-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>CSS</span>
-          </div>
+          <div className="second-project projects"></div>
         </a>
         <a
           href="https://camp-in-two.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="third-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>styled-components</span>
-          </div>
+          <div className="third-project projects"></div>
         </a>
         <a
           href="https://main--velvety-moxie-c46960.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="fourth-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>styled-components</span>
-          </div>
+          <div className="fourth-project projects"></div>
         </a>
         <a
-          href="https://pricing-table-dusky.vercel.app/"
+          href="https://college-list-marclipe.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="fifth-project projects">
-            <span>React</span>
-            <span>Typescript</span>
-            <span>styled-components</span>
-          </div>
+          <div className="fifth-project projects"></div>
         </a>
         <a
           href="https://marclipe.github.io/marcscript-/delivery-landing-page/"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="sixth-project projects">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
+          <div className="sixth-project projects"></div>
         </a>
       </MyProjects>
     </ContainerProjects>

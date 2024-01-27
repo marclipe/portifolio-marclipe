@@ -1,9 +1,9 @@
 import { styled } from 'styled-components'
-import imageFlix from '../../assets/apiflix-image.png'
+import imagePsiFran from '../../assets/psi-fran.png'
 import imageFormCompany from '../../assets/form-company.png'
 import imageBeautySalon from '../../assets/image-beaty-salon.png'
 import imageCampIn from '../../assets/image-campin.png'
-import imagePricingTable from '../../assets/image-pricing-table.png'
+import imageSearchCollege from '../../assets/search-college.png'
 import imageDelivery from '../../assets/image-delivery.png'
 
 export const ContainerProjects = styled.section``
@@ -51,6 +51,7 @@ export const MyProjects = styled.div`
   place-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 
   .projects {
     border-radius: 1.75rem;
@@ -61,18 +62,6 @@ export const MyProjects = styled.div`
     &:hover {
       transform: scale(1.1);
       transition: 0.5s;
-
-      span {
-        display: block;
-        background-color: ${(props) => props.theme['skills-color']};
-        border-radius: 3px;
-        padding: 0.125rem 0.5rem;
-        color: #000;
-        margin-bottom: 1rem;
-        font-weight: 500;
-        font-size: 0.625rem;
-        text-transform: uppercase;
-      }
     }
 
     span {
@@ -89,9 +78,8 @@ export const MyProjects = styled.div`
   .first-project {
     width: 340px;
     height: 190px;
-    margin-bottom: 3.125rem;
 
-    background-image: url(${imageFlix});
+    background-image: url(${imagePsiFran});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,7 +87,7 @@ export const MyProjects = styled.div`
 
   .second-project {
     width: 340px;
-    height: 250px;
+    height: 190px;
 
     background-image: url(${imageBeautySalon});
     background-repeat: no-repeat;
@@ -110,7 +98,6 @@ export const MyProjects = styled.div`
   .third-project {
     width: 340px;
     height: 190px;
-    margin-bottom: 3.125rem;
 
     background-image: url(${imageCampIn});
     background-repeat: no-repeat;
@@ -120,7 +107,7 @@ export const MyProjects = styled.div`
 
   .fourth-project {
     width: 340px;
-    height: 250px;
+    height: 190px;
 
     background-image: url(${imageFormCompany});
     background-repeat: no-repeat;
@@ -131,9 +118,8 @@ export const MyProjects = styled.div`
   .fifth-project {
     width: 340px;
     height: 190px;
-    margin-top: 3.625rem;
 
-    background-image: url(${imagePricingTable});
+    background-image: url(${imageSearchCollege});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +127,7 @@ export const MyProjects = styled.div`
 
   .sixth-project {
     width: 340px;
-    height: 250px;
+    height: 190px;
 
     background-image: url(${imageDelivery});
     background-repeat: no-repeat;
