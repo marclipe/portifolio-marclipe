@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 import imagePsiFran from '../../assets/psi-fran.png'
 import imageFormCompany from '../../assets/form-company.png'
 import imageBeautySalon from '../../assets/image-beaty-salon.png'
-import imageCampIn from '../../assets/image-campin.png'
+import imageMarcBlog from '../../assets/marcblog.png'
 import imageSearchCollege from '../../assets/search-college.png'
 import imageDelivery from '../../assets/image-delivery.png'
 
@@ -99,7 +99,7 @@ export const MyProjects = styled.div`
     width: 340px;
     height: 190px;
 
-    background-image: url(${imageCampIn});
+    background-image: url(${imageMarcBlog});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

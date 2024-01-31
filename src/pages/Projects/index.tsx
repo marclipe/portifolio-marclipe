@@ -43,7 +43,7 @@ export function Projects() {
           <div className="second-project projects"></div>
         </a>
         <a
-          href="https://camp-in-two.vercel.app/"
+          href="https://marclipe-blog.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
