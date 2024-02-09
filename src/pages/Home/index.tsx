@@ -13,7 +13,7 @@ export function Home() {
     const link = document.createElement('a')
     link.href = pdfUrl
     link.target = '_blank'
-    link.download = 'resumeMarcosFelipeSL.pdf'
+    // link.download = 'resumeMarcosFelipeSL.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
